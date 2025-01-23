@@ -6,8 +6,13 @@ numero = 1
 
 comando = ""
 
+# while True:
+#     comando = input("$ ")
+#     print(comando)
+#     if(comando.lower()) == "salir":
+#         break
+
+
 while comando.lower() != "salir":
     comando = input("$ ")
     print(comando)
-
-#

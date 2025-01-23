@@ -1,4 +1,4 @@
-x = input("string")
+# x = input("string")
 
 # int()
 # str()
@@ -10,3 +10,10 @@ print(bool(" "))  # True
 print(bool(None))  # False
 print(bool(0))  # False
 print(bool("0"))  # True
+
+print(bool(1))  # True
+
+
+print(bool(True))  # True
+print(bool(False))  # False
+print(bool("False"))  # True

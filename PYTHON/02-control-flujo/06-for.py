@@ -12,8 +12,9 @@ for numero in range(5):
 else:
     print("No se encontro el numero buscado", buscar)
 
+titulo = "Ultimate Python"
 elem = "P"
-for char in "Ultimate Python":
+for char in titulo:
     print(char)
     if char == elem:
         print(char, elem)
