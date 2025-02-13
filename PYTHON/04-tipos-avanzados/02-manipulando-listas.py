@@ -47,3 +47,12 @@ def printer():
 
 
 printer()
+
+
+
+def counter():
+    for num in range(5):
+        print(num)
+
+
+counter()
