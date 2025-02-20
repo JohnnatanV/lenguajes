@@ -31,7 +31,8 @@ print("numeros_5", numeros[::2])  # Numeros pares
 
 print("numeros_6", numeros[2::])
 
-# Todos los caminos llevan a roma, mas de un metodo para obtener el mismo resultado
+# Todos los caminos llevan a roma,
+# mas de un metodo para obtener el mismo resultado
 print("numeros_7.1 impares", numeros[1::2])  # numeros impares
 
 print("numeors_7.2 impares", numeros2[::2])  # numeros impares
@@ -49,10 +50,13 @@ def printer():
 printer()
 
 
+def counter():
+    lista = range(5)
+    for num in lista:
+        print("lista num:", num)
 
-# def counter():
-#    for num in range(5):
-#        print(num)
+
+counter()
 
 
-# counter()
+# print(lista)
